@@ -66,3 +66,20 @@ Oleh karena itu, mengidentifikasi nasabah yang memiliki kemungkinan besar mengal
 
 
 ## 📂 Model Simulation using Streamlit
+
+<p align="center">
+    <kbd> > <img width="1000" alt="st1" src="https://github.com/faizns/HCI-vix-project/assets/115857221/d7a67ea8-1d82-4ccc-884f-d99e57c335b8"></kbd> <br>
+    Gambar 3 — Screenshot Part 1
+</p>
+
+<br>
+<p align="center">
+    <kbd> >  <img width="1000" alt="st2" src="https://github.com/faizns/HCI-vix-project/assets/115857221/045e4d1f-2b64-4e65-9018-8b6e8142c7cb"> </kbd> <br>
+    Gambar 4 — Screenshot Part 2
+</p>
+<br>
+
+## 📂 Recommendations
+- Mempertimbangkan untuk membuat Credit Scorecard, menggunakan Information Value dan Feature Engineering menggunakan Weight of Evidence
+- Melakukan analisis kredit yang lebih mendalam 
+- Meningkatkan seleksi calon peminjam dengan memperketat persyaratan dan mengumpulkan informasi yang lebih lengkap tentang calon peminjam
