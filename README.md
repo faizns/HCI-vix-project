@@ -1,17 +1,17 @@
 # Predict Loan Default Customers
 
-**Dataset** : <br>
-**Notebook** : <br>
+**Dataset** : [source](https://www.rakamin.com/virtual-internship-experience/data-scientist-home-credit-indonesia) <br>
+**Notebook** : [view](https://github.com/faizns/HCI-vix-project/blob/main/HCI_VIX.ipynb)<br>
 **Presentation deck** : [view](https://www.canva.com/design/DAFsyNotg5E/RKJjuTM0nGTpKF7CuaAcWg/view?utm_content=DAFsyNotg5E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 <br>
 
 **Table of Contents**
-- [Business Understanding]()
-- [Workflow]()
-- [Data Visualization and Insight]()
-- [Modeling and Evaluation]()
-- [Model Simulation]()
+- [Business Understanding](https://github.com/faizns/HCI-vix-project/blob/main/README.md#-business-understanding)
+- [Workflow](https://github.com/faizns/HCI-vix-project/blob/main/README.md#-workflow)
+- [Insight](https://github.com/faizns/HCI-vix-project/blob/main/README.md#-insight)
+- [Modeling and Evaluation](https://github.com/faizns/HCI-vix-project/blob/main/README.md#-modeling-and-evaluation)
+- [Model Simulation using Streamlit](https://github.com/faizns/HCI-vix-project/blob/main/README.md#-model-simulation-using-streamlit)
 <br>
 
 
@@ -34,10 +34,21 @@ Oleh karena itu, mengidentifikasi nasabah yang memiliki kemungkinan besar mengal
 
 
 ## 📂 Workflow
+<p align="center">
+    <kbd> <img width="1000" alt="workflow" src="https://github.com/faizns/HCI-vix-project/assets/115857221/8d64b89f-f0d0-4276-9a51-82a1adb0c9a8.jpg"> </kbd> <br>
+    Gambar 1 — Workflow Pembuatan Model
+</p>
+<br>
 
-
-## 📂 Data Visualization and Insight
-
+## 📂 Insight
+- Tingkat default kredit nasabah dari dataset mencapai 9%
+- Karakteristik mayoritas nasabah yang cenderung mengalami masalah dalam pembayaran kredit yaitu:
+  - Laki-laki
+  - Kelompok pendidikan rendah, "lower secondary"
+  - Rentang usia 25 - 40 tahun
+  - Lama bekerja 1 - 5 tahun
+  - Tipe kredit "Cash Loan"
+<br>
 
 ## 📂 Modeling and Evaluation
 - Split dataset dengan rasio 80% Train : 20% Test
@@ -46,4 +57,12 @@ Oleh karena itu, mengidentifikasi nasabah yang memiliki kemungkinan besar mengal
 - Eksperimen menggunakan beberapa algoritma Logistic Regression, Random Forest, dan XGBoost
 - Best fit model didapatkan menggunakan Logistic Regression dengan hyperparameter tuning, menghasilkan akurasi 87% dan AUC 73%
 
-## 📂 Simulations
+<br>
+<p align="center">
+    <kbd> <img width="800" alt="feats" src="https://github.com/faizns/HCI-vix-project/assets/115857221/a4daeca8-49f8-4c55-8cdd-3f3ad0486f18"> </kbd> <br>
+    Gambar 2 — Feature Importance
+</p>
+<br>
+
+
+## 📂 Model Simulation using Streamlit
